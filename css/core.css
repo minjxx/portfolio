@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* 공통 클래스 CSS - core.css */
+
+/* 웹폰트 설정 */
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 300;
+    src: url(./fonts/NotoSansKR-Light.woff) format("woff");
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/NotoSansKR-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 500;
+    src: url(./fonts/NotoSansKR-Medium.woff) format("woff");
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/NotoSansKR-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "Crimson text";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/CrimsonText-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Crimson text";
+    font-style: normal;
+    font-weight: 600;
+    src: url(./fonts/CrimsonText-SemiBold.woff) format("woff");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Roboto-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./fonts/Roboto-Medium.woff) format("woff");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/Roboto-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "GmarketSans";
+    font-weight: 300;
+    src: url(./fonts/GmarketSansLight.woff2) format(woff);
+  }
+  @font-face {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    src: url(./fonts/GmarketSansMedium.woff2) format(woff);
+  }
+  @font-face {
+    font-family: "GmarketSans";
+    font-weight: 800;
+    src: url(./fonts/GmarketSansBold.woff2) format(woff);
+  }
+
+  @font-face {
+    font-family: 'montserrat';
+    src: url(./fonts/Montserrat-VariableFont_wght.woff) format(woff);
+    font-weight: 300 500 600 900; /* 원하는 두께 범위 지정 */
+    font-style: normal; /* 이탤릭이나 기울임 설정 가능 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+select {
+    -webkit-appearance:none; /* 크롬 화살표 없애기 */
+    -moz-appearance:none; /* 파이어폭스 화살표 없애기 */
+    appearance:none /* 화살표 없애기 */
+}
+
+.crimson {
+    font-family: 'Crimson text';
+}
+.roboto {
+    font-family: 'Roboto';
+}
+.gmarketsans{
+    font-family: 'GmarketSans';
+}
+.montserrat{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.linkCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.hide {
+    position: absolute !important;
+    left: -99999px !important;
+    opacity: 0;
+    visibility: hidden;
+}
