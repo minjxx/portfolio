@@ -17,7 +17,7 @@ body {
 	line-height: 1.45;
 	overflow-x: hidden;
 	font-size: 1.8rem;
-	font-family: "Noto Sans KR", sans-serif;
+	font-family: "GmarketSans", sans-serif;
 	font-weight: 400;
 	background-color: #1e1e1e;
 }
@@ -26,7 +26,7 @@ ol, ul {
 }
 button, input, select, textarea {
     color: inherit;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'GmarketSans', sans-serif;
     vertical-align: middle;
 }
 /* a요소 리셋 */

@@ -5,14 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <title>웹 퍼블리셔 김민정 포트폴리오</title>
-        <!-- swiper CSS -->
-        <!-- <link rel="stylesheet" href="./css/swiper.min.css" /> -->
         <!-- 메인 CSS -->
         <link rel="stylesheet" href="./css/main.css" />
-        <!-- swiper JS -->
-        <!-- <script src="./js/swiper.min.js"></script> -->
         <!-- 메인 JS -->
-        <!-- <script type="module" src="./js/main.js"></script> -->
+        <script type="module" src="./js/main.js"></script>
     </head>
     <body>
         <!-- 상단영역 시작 -->
@@ -43,7 +39,7 @@
 
         <!-- home 시작 -->
         <section id="home" class="home_wrap inner_wrap">
-            <div class="home_box">
+            <div class="home_box ani-up">
                 <div class="text_box">
                     <h2 class="gmarketsans">작업을 더 즐겁게 <span class="montserrat">Minjoy!</span></h2>
                     <h3 class="gmarketsans">안녕하세요. UI/UX디자인과 퍼블리싱을 하는<br>2년 차 웹 퍼블리셔 김민정입니다.<br>탄탄한 코드 위에 섬세한 감각을 더해,<br>보기 좋고 사용하기 편한 웹페이지를 만듭니다.</h3>
@@ -57,20 +53,20 @@
 
         <!-- about 시작 -->
         <section id="about" class="about_wrap inner_wrap">
-           <div class="about_box">
+           <div class="about_box ani-up">
                 <div class="pic"><img src="./images/she.png" alt="이모지"></div>
                 <div class="text_inner">
-                    <h3 class="title">ABOUT ME</h3>
-                    <div class="txt">
+                    <h3 class="box_title gmarketsans">ABOUT ME</h3>
+                    <div class="about_text">
                         <div class="work_box career">
-                            <h4>WORK EXPERIENCE</h4>
+                            <h4 class="montserrat">WORK EXPERIENCE</h4>
                             <div class="txt_box">
                                 <p>2021.06 - 2023.07 엔씨지글로벌 퍼블리셔 근무</p>
                                 <p>2019.12 - 2020.08 와이즈와이어즈 QA 근무</p>
                             </div>
                         </div>
                         <div class="work_box qual">
-                            <h4>EDUCATION</h4>
+                            <h4 class="montserrat">EDUCATION</h4>
                             <div class="txt_box">
                                 <p>2023.07 - 2024.01 그린컴퓨터아트 프론트엔드과정 수료</p>
                                 <p>2016.03 - 2019.02 배화여자대학교 스마트IT과 졸업</p>
@@ -82,21 +78,95 @@
         </section>
         <!-- about 끝 -->
 
-        <!-- portfolio 시작 -->
-        <section id="portfolio" class="portfolio_wrap">
+        <!-- project 시작 -->
+        <section id="portfolio" class="project_wrap inner_wrap">
+            <h3 class="box_title gmarketsans">PROJECT</h3>
+            <p>작업한 프로젝트들</p>
+            <ul class="list_wrap">
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://mallpro.co.kr/" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg01.png" alt="몰프로"></div>
+                    </div>
+                    <h5>몰프로</h5>
+                    <div class="work">
+                        <span>Web&Moblie</span>
+                        <span>메인, 서브페이지 작업</span>
+                    </div>
+                </li>
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://alchanfood.com/" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg02.png" alt="알토란"></div>
+                    </div>
+                    <h5>알토란</h5>
+                    <div class="work">
+                        <span>Moblie</span>
+                        <span>메인, 서브페이지 작업</span>
+                    </div>
+                </li>
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://jumpro.co.kr/" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg03.png" alt="점프로"></div>
+                    </div>
+                    <h5>점프로</h5>
+                    <div class="work">
+                        <span>Web&Moblie</span>
+                        <span>메인페이지 작업</span>
+                    </div>
+                </li>
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://tachi.co.kr/default.asp" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg00.png" alt="타치"></div>
+                    </div>
+                    <h5>타치</h5>
+                    <div class="work">
+                        <span>Web&Moblie</span>
+                        <span>메인, 서브페이지 작업</span>
+                    </div>
+                </li>
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://minjxx.github.io/seoul-wallpaper-pj/" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg04.png" alt="서울벽지"></div>
+                    </div>
+                    <h5>개인 작업 - 서울벽지</h5>
+                    <div class="work">
+                        <span>Web&Moblie</span>
+                        <span>메인, 공지사항페이지 작업</span>
+                    </div>
+                </li>
+                <li class="list_box ani-up">
+                    <div class="link">
+                        <a href="https://minjxx.github.io/converse/" class="link_cover" target="_blank"></a>
+                        <div class="img_list"><img src="./images/pfimg05.png" alt="컨버스"></div>
+                    </div>
+                    <h5>개인 작업 - 컨버스</h5>
+                    <div class="work">
+                        <span>Web&Moblie</span>
+                        <span>메인, 서브페이지 작업</span>
+                        <span>(React 활용)</span>
+                    </div>
+                </li>
+            </ul>
 
         </section>
-        <!-- portfolio 끝 -->
+        <!-- project 끝 -->
 
         <!-- contact 시작 -->
-        <section id="contact" class="contact_wrap">
-
+        <section id="contact" class="contact_wrap inner_wrap">
+            <h3>함께 일할 웹 퍼블리셔를 찾고 계신가요?</h3>
+            <h4>qnsdbtlrp1018@naver.com</h4>
+            <h5>저에게 궁금한 점이 있으시다면 연락해 주세요 :) 빠르게 답장 드리겠습니다!</h5>
+            <a href="mailto:qnsdbtlrp1018@naver.com" class="mail_btn">메일보내기</a>
         </section>
         <!-- contact 끝 -->
 
         <!-- 하단영역 시작 -->
         <footer class="footer_wrap">
-
+            © 2026 by minjung. All rights reserved.
         </footer>
         <!-- 하단영역 끝 -->
     </body>
