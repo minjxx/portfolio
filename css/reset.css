@@ -19,6 +19,7 @@ body {
 	font-size: 1.8rem;
 	font-family: "Noto Sans KR", sans-serif;
 	font-weight: 400;
+	background-color: #1e1e1e;
 }
 ol, ul {
 	list-style: none;
@@ -30,7 +31,7 @@ button, input, select, textarea {
 }
 /* a요소 리셋 */
 a{
-    color: #222;
+    color: var(--main-black);
     text-decoration: none;
 }
 /* 이미지태그 여백없애기 */
@@ -56,10 +57,10 @@ img {
 
 /* 마우스 드래그 색상 */
 ::-moz-selection {
-	background: #5f75bd;
+	background: #ffc74a;
 	color: #ffffff;
  }
  ::selection {
-	background: #5f75bd;
+	background: #ffc74a;
 	color: #fff;
  }

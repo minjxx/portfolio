@@ -40,44 +40,50 @@
     src: url(./fonts/CrimsonText-SemiBold.woff) format("woff");
 }
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url(./fonts/Roboto-Regular.woff) format("woff");
-}
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url(./fonts/Roboto-Medium.woff) format("woff");
-}
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: url(./fonts/Roboto-Bold.woff) format("woff");
-}
-@font-face {
     font-family: "GmarketSans";
     font-weight: 300;
     src: url(./fonts/GmarketSansLight.woff2) format(woff);
-  }
-  @font-face {
+}
+@font-face {
     font-family: "GmarketSans";
     font-weight: 500;
     src: url(./fonts/GmarketSansMedium.woff2) format(woff);
-  }
-  @font-face {
+}
+@font-face {
     font-family: "GmarketSans";
     font-weight: 800;
     src: url(./fonts/GmarketSansBold.woff2) format(woff);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'montserrat';
-    src: url(./fonts/Montserrat-VariableFont_wght.woff) format(woff);
-    font-weight: 300 500 600 900; /* 원하는 두께 범위 지정 */
-    font-style: normal; /* 이탤릭이나 기울임 설정 가능 */
+    font-weight: 400;
+    src: url(./fonts/Montserrat-Regular.woff) format(woff);
+}
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 500;
+    src: url(./fonts/Montserrat-Medium.woff) format(woff);
+}
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 600;
+    src: url(./fonts/Montserrat-SemiBold.woff) format(woff);
+}
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 700;
+    src: url(./fonts/Montserrat-Bold.woff) format(woff);
+}
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 800;
+    src: url(./fonts/Montserrat-ExtraBold.woff) format(woff);
+}
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 900;
+    src: url(./fonts/Montserrat-Black.woff) format(woff);
 }
 
 h1,
@@ -101,15 +107,11 @@ select {
 .crimson {
     font-family: 'Crimson text';
 }
-.roboto {
-    font-family: 'Roboto';
-}
 .gmarketsans{
     font-family: 'GmarketSans';
 }
 .montserrat{
     font-family: 'montserrat', sans-serif;
-    font-weight: 600;
 }
 
 .linkCover {
