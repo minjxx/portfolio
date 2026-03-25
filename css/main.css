@@ -107,7 +107,7 @@ html {
     .main_header .header_wrap nav {padding: 0 4vw;}
     .main_header .header_wrap nav .header_logo h1 a{font-size: 18px;}
     .main_header .header_wrap .nav_ul li button {font-size: 16px;}
-    .main_header .header_wrap .nav_ul li:last-child button {padding: 9px 12px;}
+    .main_header .header_wrap .nav_ul li:last-child button {padding: 4px 4px;}
     .home_wrap .home_box {flex-wrap: wrap;}
     .home_wrap .home_box .text_box {width: 100%;margin-bottom: 40px;}
     .home_wrap .home_box .img_box {width: 100%;margin-left: 0;padding-left: 0;border:0;}
@@ -124,8 +124,7 @@ html {
     .contact_wrap h3 {font-size: 22px;}
     .contact_wrap h4 {font-size: 5.3vw;}
     .contact_wrap h5 {font-size: 16px;}
-    .main_header .header_wrap .nav_ul {width: 62%;}
+    .main_header .header_wrap .nav_ul {width: 80%;}
     .main_header .header_wrap .nav_ul li button {font-size: 14px;}
     .footer_wrap {padding: 30px 10vw;}
 }
-.main_header .header_wrap nav {}
